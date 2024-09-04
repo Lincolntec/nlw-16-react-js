@@ -1,13 +1,12 @@
 import {  AtSign, Plus, X } from 'lucide-react'
 import { FormEvent } from 'react'
+import { Button } from '../../components/button'
 
 interface InviteGuestsModalProps {
     closeGuestsModal: () =>  void
     emailsToInvite: string[]
     addNewEmailToInvite: (event: FormEvent<HTMLFormElement>) => void
     removeEmailFromInvites: (email: string) => void
-
-
 }
 
 export function InviteGuestsModal( {
@@ -26,12 +25,10 @@ export function InviteGuestsModal( {
                 <X className='size-5 text-zinc-400'/>
               </button>
             </div>
-
             <p className='text-sm text-zinc-400'>
               Os convidados irão receber e-mails para confirmar a participação na viagem.
             </p>
           </div>
-
           <div className='flex flex-wrap gap-2'>
             {
               emailsToInvite.map(email => {
@@ -47,31 +44,23 @@ export function InviteGuestsModal( {
                 )
               } )
             }
-
           </div>
-
-          <div className='w-full h-px bg-zinc-800'/>       
-          
+          <div className='w-full h-px bg-zinc-800'/>                 
           <form onSubmit={addNewEmailToInvite} className="p-2.5 bg-zinc-950 border-zinc-800 rounded-lg flex items-center gap-2">
            <div className='px-2 flex items-center flex-1 gap-2'>
-            <AtSign className='text-zinc-400 size-5' />
-            <input 
-              type="email"
-              name='email'
-              placeholder="Digite o e-mail do convidado"
-              className="bg-transparent text-lg placeholder-zinc-400 outline-none flex-1"
-            />
-
-           </div>
-           
-            <button type="submit" className='bg-lime-300 text-lime-950 rounded-lg px-5 py-2 font-medium flex items-center gap-2 hover:bg-lime-400'>
+              <AtSign className='text-zinc-400 size-5' />
+              <input 
+                type="email"
+                name='email'
+                placeholder="Digite o e-mail do convidado"
+                className="bg-transparent text-lg placeholder-zinc-400 outline-none flex-1"
+              />
+            </div>           
+            <Button type="submit">
               Convidar
-            <Plus className='size-5 text-lime-950' />
-          </button>
-
+              <Plus className='size-5 text-lime-950' />
+            </Button>
           </form>
-          
-
         </div>
 
       </div>
