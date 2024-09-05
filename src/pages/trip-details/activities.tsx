@@ -44,7 +44,7 @@ export function Activities() {
                 <div className="px-4 py-2.5 bg-zinc-900 rounded-xl shadow-shape flex items-center gap-3">
                     <CircleCheck className="size-5 text-lime-300"/>
                     <span className="text-zinc-100">
-                        Academia em grupo
+                        Passeio no parque ecológico
                     </span>
                     <span className="text-zinc-400 text-sm ml-auto">
                         08:00h

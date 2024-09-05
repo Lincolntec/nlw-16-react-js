@@ -1,50 +1,57 @@
-# React + TypeScript + Vite
+# Projeto NLW-16 React JS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto criado pela empresa [Rocketseat](https://www.rocketseat.com.br/), trata-se de um projeto organizador de viagens, onde é possível cadastrar uma viagem, convidar pessoas, cadastrar links considerados importante para a viagem, ver o detalhamento, a lista das pessoas convidadas, se confirmaram o convite enfim uma aplicação bacana onde foi possivel, explorar os conhecimentos.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+**Albumas das técnologias envolvidas:**
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+* React
 
-- Configure the top-level `parserOptions` property like this:
+* Vite
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+* TypeScript
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+* Tailwind
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+
+**Instalação das dependências**
+
+npm install
+
+
+
+**Inicialização do projeto**
+
+npm run dev
+
+O projeto sobe na porta
+
+http://localhost:5173/
+
+
+
+Este projeto terá integração com backend feito em java o link do projeto em java é:
+
+[GitHub - Lincolntec/gestao_vagas_RocketSeat_Java](https://github.com/Lincolntec/gestao_vagas_RocketSeat_Java)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 
+
+
+
+- 

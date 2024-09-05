@@ -24,10 +24,10 @@ export function ImportantsLinks() {
             <div className="flex items-center justify-between gap-4">
                 <div className="space-y-1.5">
                     <span className="block font-medium text-zinc-100">
-                        Reserva do AirBnB
+                        Café da manhã
                     </span>
                     <a href="#" className="block text-sm text-zinc-400 truncate hover:text-zinc-200">
-                        https://www.airbnb.com.br/rooms/18470001123123132123123123123123132132321
+                        https://www.cafesaborlegal/18470001123123132123123123123123132132321
                     </a>
 
                 </div>
